@@ -1,0 +1,40 @@
+# Backend
+backend/node_modules/
+backend/.env
+backend/npm-debug.log
+backend/yarn-error.log
+backend/.DS_Store
+backend/dist/
+backend/build/
+
+# Flutter
+flutter-app/.dart_tool/
+flutter-app/.flutter-plugins
+flutter-app/.flutter-plugins-dependencies
+flutter-app/.packages
+flutter-app/.pub-cache/
+flutter-app/.pub/
+flutter-app/build/
+flutter-app/*.iml
+flutter-app/.idea/
+flutter-app/.vscode/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker
+.docker/
+
+# OS
+Thumbs.db
