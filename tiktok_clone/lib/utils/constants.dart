@@ -1,7 +1,12 @@
 class AppConstants {
   // API Configuration
-  static const String apiBaseUrl = 'http://localhost:3000/api';
-  // Change to your Railway URL when deployed:
+  // For Android Emulator (use 10.0.2.2 instead of localhost):
+  static const String apiBaseUrl = 'http://10.0.2.2:3000/api';
+
+  // For Physical Device (use your computer's IP address):
+  // static const String apiBaseUrl = 'http://192.168.1.XXX:3000/api';
+
+  // For Production (Railway deployment):
   // static const String apiBaseUrl = 'https://your-app.railway.app/api';
 
   // Endpoints
